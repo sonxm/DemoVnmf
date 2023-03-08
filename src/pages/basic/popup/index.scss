@@ -1,0 +1,14 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+@import "../../../styles/prefix";
+
+.popup-demo {
+
+  .#{$component-prefix}popup--center {
+    font-size: $font-size-lg;
+  }
+
+  .#{$demo-prefix}block__content {
+    padding: 0;
+  }
+}

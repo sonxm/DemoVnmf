@@ -1,0 +1,19 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+@import "../../../styles/prefix";
+
+.uploader-demo {
+  background: #fff;
+
+  .preview-cover {
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 4px * $hd;
+    color: #fff;
+    font-size: 12px * $hd;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}

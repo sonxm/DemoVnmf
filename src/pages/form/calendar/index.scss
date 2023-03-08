@@ -1,0 +1,17 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+@import "../../../styles/prefix";
+
+.calendar-demo {
+  .#{$component-prefix}popup {
+    overflow: hidden;
+  }
+
+  .#{$demo-prefix}block__content {
+    padding: 0;
+  }
+
+  .#{$demo-prefix}block-card {
+    margin-top: 0;
+  }
+}

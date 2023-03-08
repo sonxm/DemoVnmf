@@ -1,0 +1,17 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+@import "../../../styles/prefix";
+
+.switch-demo {
+
+  .switch-with-cell {
+    .#{$demo-prefix}block__content {
+      padding: 0;
+    }
+  }
+
+  .custom-color {
+    --switch-background-color: #dcdee0;
+    --switch-checked-color: #ee0a24;
+  }
+}

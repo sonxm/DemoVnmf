@@ -1,0 +1,13 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+@import "../../../styles/prefix";
+
+.number-keyboard-demo {
+  .#{$demo-prefix}block__content {
+    padding: 0;
+  }
+
+  .#{$component-prefix}cell__value {
+    flex: 0;
+  }
+}

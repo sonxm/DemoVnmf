@@ -1,0 +1,13 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+@import "../../../styles/prefix";
+
+.search-demo {
+  .#{$demo-prefix}block__content {
+    padding: 0;
+  }
+
+  .background {
+    --search-background-color: #4fc08d;
+  }
+}

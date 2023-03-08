@@ -1,0 +1,10 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+
+.list-demo {
+  background: #fff;
+
+  .#{$component-prefix}cell__value {
+    text-align: center;
+  }
+}

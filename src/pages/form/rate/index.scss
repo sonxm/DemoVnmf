@@ -1,0 +1,10 @@
+@import "~@vnmfify/core/styles/prefix";
+@import "~@vnmfify/core/styles/variables";
+@import "../../../styles/prefix";
+
+.rate-demo {
+  .custom-color {
+    --rate-icon-empty-color: #eee;
+    --rate-icon-full-color: #ffd21e;
+  }
+}
