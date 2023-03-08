@@ -8,7 +8,7 @@ const config = {
     828: 1.81 / 2,
   },
   sourceRoot: "src",
-  outputRoot: `dist/${process.env.VNMF_ENV}`,
+  outputRoot: `dist`,
   plugins: [],
   defineConstants: {},
   copy: {
@@ -39,7 +39,7 @@ const config = {
   },
   h5: {
     esnextModules: ["@vnmfify"],
-    publicPath: process.env.NODE_ENV === "development" ? "/" : "/h5",
+    publicPath: process.env.NODE_ENV === "development" ? "/" : "/",
     staticDirectory: "static",
     postcss: {
       autoprefixer: {
