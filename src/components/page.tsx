@@ -6,6 +6,7 @@ import { ReactNode } from "react"
 import { demoPrefixClassname } from "../styles/prefix"
 import "./page.scss"
 import Target from "./target"
+import { SafeArea,FixedView } from "@vnmfify/core"
 
 interface PageProps {
   className?: string
@@ -18,6 +19,7 @@ export default function Page(props: PageProps) {
 
   return (
     <View className={classNames(demoPrefixClassname("page"), className)}>
+      <SafeArea position="top"/>
       <Target type="h5">
         <View className={demoPrefixClassname("page__nav")}>
           <ArrowLeft
@@ -28,6 +30,7 @@ export default function Page(props: PageProps) {
         </View>
       </Target>
       <View className={demoPrefixClassname("page__content")}>{children}</View>
+      <SafeArea position="bottom"/>
     </View>
   )
 }
